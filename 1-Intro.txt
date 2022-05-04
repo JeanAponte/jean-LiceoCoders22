@@ -1,0 +1,4 @@
+Commit: Guarda el proyecto de forma segura, si quieres modificarla tendrás que pedirselo
+Fetch: Para descargar contenido de otro repositorio.
+Pull: Para descargar y extraer contenido y actualiazar automaticamente el tuyo.
+Push: Para enviar contenido de un repositorio local a uno remoto.
