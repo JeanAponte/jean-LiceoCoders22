@@ -1,0 +1,30 @@
+function prueba({
+    return "pepe";
+})
+
+const p1 = prueba(); //const p1 = "pepe"
+console.log(p1);
+
+function prueba_time2(){
+    setTimeout(() =>{
+        return "pepe";
+    }, 10000);
+}
+
+const p2 = prueba_time2();
+console.log(p2)
+
+
+const prueba_time = (callback) => {
+    setTimeout(() => {
+        //Procesos larga ejecución
+        //fetching...
+    callback("mola mazo");
+    }, 10000);
+}
+
+const karol = (p2) => {
+    console.log(p2)
+}
+
+prueba_time(karol)
