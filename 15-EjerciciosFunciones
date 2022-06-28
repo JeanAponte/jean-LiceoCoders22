@@ -1,0 +1,7 @@
+/*2.Declare una función fullName y ahora toma firstName, lastName como parámetro y devuelve su nombre completo.*/
+function fullName(firstName, lastName){
+    return firstname + " " + lastName;
+}
+console.log(fullName("Yeva", "Hr"))
+
+/*A*/
