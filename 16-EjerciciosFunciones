@@ -1,9 +1,35 @@
-/*1.Declare una función fullName e imprima su nombre completo.*/
+/*1. Declare una función fullName e imprima su nombre completo.*/
 
------------
+function fullName1 (){
+    console.log ("Andrea Bernardino del Pino");
+}
 
-/*2.Declare una función fullName y ahora toma firstName, lastName como parámetro y devuelve su nombre completo.*/
+/*2. Declare una función fullName y ahora toma firstName, lastName como parámetro y devuelve su nombre completo.*/
 function fullName(firstName, lastName){
     return firstname + " " + lastName;
 }
 console.log(fullName("Yeva", "Hr"))
+
+/*3. Declare una función addNumbers y toma dos dos parámetros y devuelve suma */
+
+function addNumbers(x,y){
+    return x + y;
+}
+
+console.log (addNumbers(3,8));
+
+/*4. El área de un rectángulo se calcula de la siguiente manera: área = largo x ancho. Escribe una función que calcule areaOfRectangle */
+
+function areaOfRectangle (largo, ancho){
+    return "El área del rectángulo es: " + largo * ancho;
+}
+
+console.log(areaOfRectangle(5,12));
+
+/*5. El perímetro de un rectángulo se calcula de la siguiente manera: perímetro = 2x (largo + ancho). Escribe una función que calcule el perímetro del rectángulo.*/
+
+function perimeterOfRectangle (largo, ancho){
+    return "El perímetro del rectángulo es: " + 2 * (largo + ancho);
+} 
+
+console.log (perimeterOfRectangle(2,6));
