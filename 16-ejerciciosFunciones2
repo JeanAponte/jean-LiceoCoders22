@@ -1,0 +1,18 @@
+/*1. Declare una función fullName e imprima su nombre completo.*/
+
+
+
+/*2. Declare una función fullName y ahora toma firstName, lastName como parámetro y devuelve su nombre completo.*/
+
+
+
+/*3. Declare una función addNumbers y toma dos dos parámetros y devuelve suma */
+
+
+
+/*4. El área de un rectángulo se calcula de la siguiente manera: área = largo x ancho. Escribe una función que calcule areaOfRectangle */
+
+
+
+/*5. El perímetro de un rectángulo se calcula de la siguiente manera: perímetro = 2x (largo + ancho). Escribe una función que calcule el perímetro del rectángulo.*/
+
